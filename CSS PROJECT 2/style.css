@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav i{
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: 25px;
+}
+#centre{
+    width: 100%;
+    padding: 40px 80px;
+    
+}
+#centre h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+}
+#centre-in{
+    padding: 60px 0;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 22PX;
+    display: flex;
+    justify-content: space-between;
+}
+.elem{
+    /* padding: 20px 0; */
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+a{
+
+    text-decoration: none;
+    color: black;
+    padding: 20px 130px 10px 0px; 
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+    
+}
+.elem:hover i{
+    opacity: 1;
+  
+}
+.elem{
+    background-color: rgb(240, 240, 240);
+    background: #ffffff; 
+    color:white; 
+    cursor:pointer; 
+    transition:color 0.5s linear;
+    transition:background 0.5s linear;
+    }
+
+    .elem:hover{ 
+    background:#dadada; 
+    
+    color:#000000;
+}
+#imge{
+    height: 40%;
+    width: 100%;
+    background-image: fixed;
+    
+
+}
+
+#imge {
+    position: absolute;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+
+}
+#imge:hover {
+    opacity: 1;
+    cursor: url(CUR.png),pointer;
+}
